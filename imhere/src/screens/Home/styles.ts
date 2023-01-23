@@ -1,0 +1,96 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 24,
+    backgroundColor: "#131016",
+  },
+  eventName: {
+    fontSize: 24,
+    marginTop: 48,
+    fontWeight: "bold",
+    color: "#fdfcfe",
+  },
+  eventDate: {
+    alignItems: "flex-end",
+    fontSize: 16,
+    color: "#6b6b6b",
+  },
+  input: {
+    flex: 1,
+    height: 56,
+    backgroundColor: "#1f1e25",
+    color: "#fdfcfe",
+    padding: 16,
+    fontSize: 16,
+    borderRadius: 5,
+    marginRight: 12,
+  },
+  buttonText: {
+    color: "#fff",
+    fontSize: 24,
+  },
+  buttonContent: {
+    alignItems: "center",
+    fontSize: 16,
+    color: "#6b6b6b",
+    marginTop: 35,
+    marginBottom: 35,
+  },
+  button: {
+    width: 56,
+    height: 56,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 5,
+    backgroundColor: "#31cf67",
+  },
+  form: {
+    flexDirection: "row",
+    width: "100%",
+    marginTop: 36,
+    marginBottom: 42,
+  },
+  listEmptyText: {
+    color: "#fff",
+    fontSize: 14,
+    textAlign: "center",
+  },
+  eventForm: {
+    width: "100%",
+    marginTop: 36,
+    marginBottom: 42,
+  },
+  createEventContainer: {
+    alignItems: "center",
+    marginTop: 6,
+    width: "100%",
+  },
+  createEventButton: {
+    width: "100%",
+    height: 56,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 5,
+    backgroundColor: "#31cf67",
+  },
+  eventContent: {
+    width: "100%",
+    marginTop: 45,
+    height: 56,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 5,
+    backgroundColor: "#1f1e25",
+  },
+  deleteDataButton: {
+    width: "100%",
+    marginTop: 20,
+    height: 56,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 5,
+    backgroundColor: "#e23c44",
+  },
+});
